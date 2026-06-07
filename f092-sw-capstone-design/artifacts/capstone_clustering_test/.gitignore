@@ -1,0 +1,23 @@
+# 재생성 가능한 산출물
+embeddings/
+vector_db/
+checkpoints/
+*.npy
+*.pkl
+*.faiss
+*.pt
+*.ckpt
+*.bin
+
+# 데이터 (민감/대용량) — 샘플만 예외 허용하려면 아래 줄 참고
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 환경/시크릿
+.env
